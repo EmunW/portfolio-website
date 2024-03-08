@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./Header";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
     </BrowserRouter>
   );
 };
