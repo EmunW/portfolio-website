@@ -3,7 +3,22 @@ module.exports = {
   darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        widescreen: { raw: "(min-aspect-ratio: 3/2)" },
+        tallscreen: { raw: "(min-aspect-ratio: 13/20)" },
+      },
+      keyframes: {
+        "open-menu": {
+          "0%": { transform: "scaleX(0)" },
+          "80%": { transform: "scaleX(1.2)" },
+          "100%": { transform: "scaleX(1)" },
+        },
+      },
+      animation: {
+        "open-menu": "open-menu 0.5s ease-in-out forwards",
+      },
+    },
   },
   plugins: [],
 };

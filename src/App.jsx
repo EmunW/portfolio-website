@@ -6,12 +6,12 @@ const App = () => {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
       <Header />
-      <main class="max-w-4xl mx-auto mt-6">
+      <main className="max-w-4xl mx-auto mt-6">
         <section
           id="about"
           className="flex flex-col-reverse justify-center sm:flex-row px-6 items-center gap-8 mb-12"
         >
-          <article class="sm:w-1/2">
+          <article className="sm:w-1/2">
             <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
               Hi I'm Edmund
             </h2>
