@@ -1,12 +1,16 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
+import { Slider } from "./Slider";
+import Intro from "./Intro";
+import Contact from "./Contact";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
       <Header />
-      <main className="max-w-4xl mx-auto mt-6">
+      <Intro />
+      {/* <main className="max-w-4xl mx-auto mt-6">
         <section
           id="about"
           className="flex flex-col-reverse justify-center sm:flex-row px-6 items-center gap-8 mb-12"
@@ -33,7 +37,9 @@ const App = () => {
             alt="My photo"
           ></img>
         </section>
-      </main>
+      </main> */}
+      <Slider />
+      <Contact />
     </div>
   );
 };
