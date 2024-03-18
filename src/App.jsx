@@ -7,10 +7,11 @@ import Contact from "./Contact";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-      <Header />
-      <Intro />
-      {/* <main className="max-w-4xl mx-auto mt-6">
+    <div>
+      <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+        <Header />
+        <Intro />
+        {/* <main className="max-w-4xl mx-auto mt-6">
         <section
           id="about"
           className="flex flex-col-reverse justify-center sm:flex-row px-6 items-center gap-8 mb-12"
@@ -38,8 +39,8 @@ const App = () => {
           ></img>
         </section>
       </main> */}
-      <Slider />
-      <Contact />
+        <Contact />
+      </div>
     </div>
   );
 };
