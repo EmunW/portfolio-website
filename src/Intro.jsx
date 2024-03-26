@@ -6,12 +6,12 @@ export default function Intro() {
           <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-teal-300/50 dark:bg-white/5 px-6 py-16 ring-1 ring-white/10 md:rounded-3xl md:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
             <img
               className="w-1/2 dark:hidden"
-              src="https://res.cloudinary.com/dkdcjy1wy/image/upload/v1710478499/EWLogo_q5udd9.png"
+              src="https://res.cloudinary.com/dkdcjy1wy/image/upload/v1711483435/EWLogoV2_odkdgq.png"
               alt="My logo"
             ></img>
             <img
               className="w-1/2 hidden dark:block"
-              src="https://res.cloudinary.com/dkdcjy1wy/image/upload/v1710478499/EWLogoWhite_rw28z7.png"
+              src="https://res.cloudinary.com/dkdcjy1wy/image/upload/v1711483435/EWLogoV2White_wizutb.png"
               alt="My logo"
             ></img>
             <div className="w-full flex-auto">
