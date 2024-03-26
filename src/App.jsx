@@ -4,6 +4,7 @@ import Header from "./Header";
 import { Slider } from "./Slider";
 import Intro from "./Intro";
 import Contact from "./Contact";
+import TechStack from "./TechStack";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
         <Header />
         <Intro />
+        <TechStack />
         {/* <main className="max-w-4xl mx-auto mt-6">
         <section
           id="about"
