@@ -50,7 +50,7 @@ export default function Header() {
         >
           &times;
         </button>
-        <nav className="bg-gray-900 text-white flex flex-col min-h-screen items-center py-4">
+        <nav className="bg-slate-50 dark:bg-gray-900 text-black dark:text-white flex flex-col min-h-screen items-center py-4">
           <a
             href="#header"
             className="w-full text-center py-4 hover:opacity-90"
