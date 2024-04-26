@@ -32,6 +32,12 @@ export default function Header() {
             <a href="#contact" className="link hover:opacity-90">
               Contact
             </a>
+            <a
+              href="https://github.com/EmunW"
+              className="link hover:opacity-90"
+            >
+              GitHub
+            </a>
             <DarkMode></DarkMode>
           </nav>
         </div>
@@ -78,6 +84,13 @@ export default function Header() {
             onClick={toggleMenu}
           >
             Contact
+          </a>
+          <a
+            href="https://github.com/EmunW"
+            className="w-full text-center py-4 hover:opacity-90"
+            onClick={toggleMenu}
+          >
+            GitHub
           </a>
           <div className="py-4">
             <DarkMode></DarkMode>
