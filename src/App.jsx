@@ -1,10 +1,10 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
-import { Slider } from "./Slider";
 import Intro from "./Intro";
 import Contact from "./Contact";
 import TechStack from "./TechStack";
+import Projects from "./Projects";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
         <Header />
         <Intro />
         <TechStack />
+        <Projects />
         {/* <main className="max-w-4xl mx-auto mt-6">
         <section
           id="about"
