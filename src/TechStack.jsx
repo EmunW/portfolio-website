@@ -10,7 +10,7 @@ import NodeIcon from "./photos/NodeIcon.png";
 
 export default function TechStack() {
   return (
-    <div className="dark:bg-gray-900 pb-24 sm:pb-32" id="about">
+    <div className="dark:bg-gray-900 pb-24 sm:pb-32">
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="mx-auto flex flex-col gap-16 bg-teal-300/50 dark:bg-white/5 px-6 py-16 ring-1 ring-white/10 md:rounded-3xl md:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center">
