@@ -146,7 +146,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label
-                  htmlFor="email"
+                  htmlFor="user_email"
                   className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   Email
@@ -164,7 +164,7 @@ export default function Contact() {
               </div>
               <div className="sm:col-span-2">
                 <label
-                  htmlFor="message"
+                  htmlFor="user_message"
                   className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   Message
