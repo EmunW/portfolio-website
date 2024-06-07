@@ -196,6 +196,7 @@ export default function Contact() {
               </p>
               <button
                 type="submit"
+                name="send-email"
                 className={
                   emailSent
                     ? "rounded-md bg-indigo-300 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
