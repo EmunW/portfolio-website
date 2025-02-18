@@ -21,7 +21,7 @@ export default function Projects() {
                 <ProjectImage
                   image={PeppermintWebsite}
                   summary="React test generator"
-                  link="https://peppermint-landing2.vercel.app/"
+                  link="https://github.com/oslabs-beta/PepperMint"
                 />
               </div>
             </div>
